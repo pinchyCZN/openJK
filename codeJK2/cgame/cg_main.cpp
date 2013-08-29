@@ -20,7 +20,7 @@ This file is part of Jedi Knight 2.
 #include "cg_headers.h"
 //#include "../ui/ui_shared.h"
 
-//#include "cg_local.h"
+#include "cg_local.h"
 #include "cg_media.h"
 #include "FxScheduler.h"
 

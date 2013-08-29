@@ -183,6 +183,7 @@ void PM_SetSaberMove(short newMove);
 //  NOTE!!! Even though this is an enum, the array that contains these uses #define MAX_PERSISTANT 16 in q_shared.h,
 //		so be careful how many you add since it'll just overflow without telling you -slc
 //
+
 typedef enum {
 	PERS_SCORE,						// !!! MUST NOT CHANGE, SERVER AND GAME BOTH REFERENCE !!!
 	PERS_HITS,						// total points damage inflicted so damage beeps can sound on change

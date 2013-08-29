@@ -7,6 +7,8 @@
 	   		
 
 #include "client.h"
+#include "../cgame/cg_local.h"
+
 #ifdef _IMMERSION
 #include "../ff/cl_ff.h"
 #include "../ff/ff.h"
