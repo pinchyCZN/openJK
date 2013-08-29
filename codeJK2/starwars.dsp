@@ -1,5 +1,5 @@
 # Microsoft Developer Studio Project File - Name="starwars" - Package Owner=<4>
-# Microsoft Developer Studio Generated Build File, Format Version 6.00
+# Microsoft Developer Studio Generated Build File, Format Version 60000
 # ** DO NOT EDIT **
 
 # TARGTYPE "Win32 (x86) Application" 0x0101
@@ -27,7 +27,7 @@ CFG=starwars - Win32 SHDebug
 # PROP AllowPerConfigDependencies 0
 # PROP Scc_ProjName ""$/Code", EILAAAAA"
 # PROP Scc_LocalPath "."
-CPP=cl.exe
+CPP=Cl.exe
 MTL=midl.exe
 RSC=rc.exe
 
@@ -53,7 +53,7 @@ RSC=rc.exe
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo
-LINK32=link.exe
+LINK32=Link.exe
 # ADD BASE LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /machine:I386
 # ADD LINK32 ALut.lib OpenAL32.lib advapi32.lib winmm.lib kernel32.lib user32.lib gdi32.lib ole32.lib wsock32.lib ff/ifc/ifc22.lib /nologo /stack:0x800000 /subsystem:windows /map /debug /machine:I386 /out:".\Release/jk2sp.exe"
 # SUBTRACT LINK32 /incremental:yes /nodefaultlib
@@ -72,7 +72,7 @@ LINK32=link.exe
 # PROP Ignore_Export_Lib 0
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /YX /c
-# ADD CPP /nologo /G6 /MTd /W4 /Gm /Gi /GX /ZI /Od /I "ff/ifc" /D "_DEBUG" /D "_JK2EXE" /D "WIN32" /D "_WINDOWS" /D "_IMMERSION" /D "_FF" /Fr /YX /FD /c
+# ADD CPP /nologo /G6 /MTd /W4 /Gm /Gi /GX /ZI /Od /I "ff/ifc" /D "_DEBUG" /D "_JK2EXE" /D "WIN32" /D "_WINDOWS" /Fr /YX /FD /c
 # ADD BASE MTL /nologo /D "_DEBUG" /win32
 # ADD MTL /nologo /D "_DEBUG" /mktyplib203 /win32
 # ADD BASE RSC /l 0x409 /d "_DEBUG"
@@ -80,7 +80,7 @@ LINK32=link.exe
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo /o"Debug/starwars.bsc"
-LINK32=link.exe
+LINK32=Link.exe
 # ADD BASE LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /debug /machine:I386
 # ADD LINK32 ALut.lib OpenAL32.lib advapi32.lib winmm.lib kernel32.lib user32.lib gdi32.lib ole32.lib wsock32.lib ff/ifc/ifc22.lib /nologo /stack:0x800000 /subsystem:windows /map /debug /machine:I386 /out:".\Debug/jk2sp.exe"
 # SUBTRACT LINK32 /profile /incremental:no /nodefaultlib
@@ -108,7 +108,7 @@ LINK32=link.exe
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo
-LINK32=link.exe
+LINK32=Link.exe
 # ADD BASE LINK32 advapi32.lib winmm.lib kernel32.lib user32.lib gdi32.lib ole32.lib wsock32.lib /nologo /stack:0x800000 /subsystem:windows /map /debug /machine:I386
 # SUBTRACT BASE LINK32 /incremental:yes /nodefaultlib
 # ADD LINK32 ALut.lib OpenAL32.lib advapi32.lib winmm.lib kernel32.lib user32.lib gdi32.lib ole32.lib wsock32.lib ff/ifc/ifc22.lib /nologo /stack:0x800000 /subsystem:windows /map /debug /machine:I386 /out:".\FinalBuild/jk2sp.exe"
@@ -137,7 +137,7 @@ LINK32=link.exe
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo /o"Debug/starwars.bsc"
 # ADD BSC32 /nologo /o"SHDebug/starwars.bsc"
-LINK32=link.exe
+LINK32=Link.exe
 # ADD BASE LINK32 ALut.lib OpenAL32.lib win32/FeelIt/ffc10d.lib advapi32.lib winmm.lib kernel32.lib user32.lib gdi32.lib ole32.lib wsock32.lib /nologo /stack:0x800000 /subsystem:windows /map /debug /machine:I386 /out:".\Debug/jk2sp.exe"
 # SUBTRACT BASE LINK32 /profile /incremental:no /nodefaultlib
 # ADD LINK32 ./shdebug/exe/smrtheap.obj ALut.lib OpenAL32.lib advapi32.lib winmm.lib kernel32.lib user32.lib gdi32.lib ole32.lib wsock32.lib ff/ifc/ifc22.lib /nologo /stack:0x800000 /subsystem:windows /map /debug /machine:I386 /out:".\SHDebug/jk2sp.exe"

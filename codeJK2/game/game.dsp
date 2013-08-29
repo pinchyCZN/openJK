@@ -1,5 +1,5 @@
 # Microsoft Developer Studio Project File - Name="game" - Package Owner=<4>
-# Microsoft Developer Studio Generated Build File, Format Version 6.00
+# Microsoft Developer Studio Generated Build File, Format Version 60000
 # ** DO NOT EDIT **
 
 # TARGTYPE "Win32 (x86) Dynamic-Link Library" 0x0102
@@ -27,7 +27,7 @@ CFG=game - Win32 SHDebug
 # PROP AllowPerConfigDependencies 0
 # PROP Scc_ProjName ""$/Code/game", FSLAAAAA"
 # PROP Scc_LocalPath "."
-CPP=cl.exe
+CPP=Cl.exe
 MTL=midl.exe
 RSC=rc.exe
 
@@ -53,7 +53,7 @@ RSC=rc.exe
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo
-LINK32=link.exe
+LINK32=Link.exe
 # ADD BASE LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /machine:I386
 # ADD LINK32 kernel32.lib user32.lib winmm.lib /nologo /base:"0x20000000" /subsystem:windows /dll /map /debug /machine:I386 /out:"..\Release/jk2gamex86.dll"
 # SUBTRACT LINK32 /incremental:yes
@@ -80,7 +80,7 @@ LINK32=link.exe
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo
-LINK32=link.exe
+LINK32=Link.exe
 # ADD BASE LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /debug /machine:I386
 # ADD LINK32 kernel32.lib user32.lib winmm.lib /nologo /base:"0x20000000" /subsystem:windows /dll /debug /machine:I386 /out:"..\Debug/jk2gamex86.dll"
 # SUBTRACT LINK32 /incremental:no /map
@@ -108,7 +108,7 @@ LINK32=link.exe
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo
-LINK32=link.exe
+LINK32=Link.exe
 # ADD BASE LINK32 kernel32.lib user32.lib winmm.lib /nologo /base:"0x20000000" /subsystem:windows /dll /map /debug /machine:I386 /out:"..\Release/efgamex86.dll"
 # SUBTRACT BASE LINK32 /incremental:yes
 # ADD LINK32 kernel32.lib user32.lib winmm.lib /nologo /base:"0x20000000" /subsystem:windows /dll /map /machine:I386 /out:"..\FinalBuild/jk2gamex86.dll"
@@ -137,7 +137,7 @@ LINK32=link.exe
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo
-LINK32=link.exe
+LINK32=Link.exe
 # ADD BASE LINK32 kernel32.lib user32.lib winmm.lib /nologo /base:"0x20000000" /subsystem:windows /dll /debug /machine:I386 /out:"..\Debug/jk2gamex86.dll"
 # SUBTRACT BASE LINK32 /incremental:no /map
 # ADD LINK32 ../shdebug/game/smrtheap.obj kernel32.lib user32.lib winmm.lib /nologo /base:"0x20000000" /subsystem:windows /dll /debug /machine:I386 /out:"..\SHDebug/jk2gamex86.dll"
@@ -848,8 +848,72 @@ SOURCE=..\qcommon\tri_coll_test.cpp
 # End Source File
 # Begin Source File
 
+SOURCE=.\wp_atst.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\wp_blaster_rifle.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\wp_bot_laser.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\wp_bowcaster.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\wp_bryar_pistol.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\wp_demp2.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\wp_det_pack.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\wp_disruptor.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\wp_emplaced_gun.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\wp_flechette.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\wp_melee.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\wp_repeater.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\wp_rocket_launcher.cpp
+# End Source File
+# Begin Source File
+
 SOURCE=.\wp_saber.cpp
 # ADD CPP /Yu"g_headers.h"
+# End Source File
+# Begin Source File
+
+SOURCE=.\wp_stun_baton.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\wp_thermal.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\wp_trip_mine.cpp
 # End Source File
 # End Group
 # Begin Group "Header Files"
