@@ -4,7 +4,7 @@
 //
 #include "../server/exe_headers.h"
 #include "../ui/ui_shared.h"
-	   		
+
 #include "../qcommon/strip.h"
 #include "client.h"
 #include "../cgame/cg_local.h"

@@ -700,7 +700,8 @@ void WriteGEntities(qboolean qbAutosave)
 
 			// the scary ghoul2 saver stuff...  (fingers crossed)
 			//
-			gi.G2API_SaveGhoul2Models(tempEnt.ghoul2);								
+			assert(FALSE); //fixme
+			//gi.G2API_SaveGhoul2Models(tempEnt.ghoul2);
 			tempEnt.ghoul2.kill(); // this handle was shallow copied from an ent. We don't want it destroyed
 		}
 	}

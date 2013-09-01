@@ -225,6 +225,8 @@ typedef struct {
 	qboolean				textureEnvAddAvailable;
 	qboolean				textureFilterAnisotropicAvailable;
 	qboolean				clampToEdgeAvailable;
+	qboolean				smpActive;
+	float					windowAspect;
 
 	int						vidWidth, vidHeight;
 

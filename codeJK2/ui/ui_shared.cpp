@@ -6,7 +6,7 @@
 #include "../server/exe_headers.h"
 
 #include "ui_local.h"
-
+#include "../qcommon/strip.h"
 
 #include "ui_shared.h"
 #include "menudef.h"

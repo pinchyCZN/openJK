@@ -5,7 +5,7 @@
 #include "../server/exe_headers.h"
 
 
-
+#include "../qcommon/strip.h"
 #include "../client/client.h"
 #include "win_local.h"
 #include "resource.h"
@@ -236,18 +236,18 @@ char **Sys_ListFiles( const char *directory, const char *extension, int *numfile
 	return listCopy;
 }
 
-void	Sys_FreeFileList( char **list ) {
+void	Sys_FreeFileList( char **flist ) {
 	int		i;
 
-	if ( !list ) {
+	if ( !flist ) {
 		return;
 	}
 
-	for ( i = 0 ; list[i] ; i++ ) {
-		Z_Free( list[i] );
+	for ( i = 0 ; flist[i] ; i++ ) {
+		Z_Free( flist[i] );
 	}
 
-	Z_Free( list );
+	Z_Free( flist );
 }
 
 //========================================================

@@ -3,361 +3,10 @@
 <pre>
 <h1>Build Log</h1>
 <h3>
---------------------Configuration: game - Win32 Debug--------------------
-</h3>
-<h3>Command Lines</h3>
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP126E.tmp" with contents
-[
-/nologo /G6 /MLd /W4 /Gm /Gi /GX /ZI /Od /I "..\ICARUS" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_IMMERSION" /FR"..\Debug\game/" /Fp"..\Debug\game/game.pch" /Yu"cg_headers.h" /Fo"..\Debug\game/" /Fd"..\Debug\game/" /FD /c 
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\cgame\cg_ents.cpp"
-]
-Creating command line "Cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP126E.tmp" 
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP126F.tmp" with contents
-[
-/nologo /G6 /MLd /W4 /Gm /Gi /GX /ZI /Od /I "..\ICARUS" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_IMMERSION" /FR"..\Debug\game/" /Fp"..\Debug\game/game.pch" /Yu"common_headers.h" /Fo"..\Debug\game/" /Fd"..\Debug\game/" /FD /c 
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\cgame\FxScheduler.cpp"
-]
-Creating command line "Cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP126F.tmp" 
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1270.tmp" with contents
-[
-kernel32.lib user32.lib winmm.lib /nologo /base:"0x20000000" /subsystem:windows /dll /incremental:yes /pdb:"..\Debug/jk2gamex86.pdb" /debug /machine:I386 /def:".\game.def" /out:"..\Debug/jk2gamex86.dll" /implib:"..\Debug/jk2gamex86.lib" 
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\BlockStream.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\Instance.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\Sequence.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\Sequencer.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\TaskManager.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\bg_misc.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\bg_pangles.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\bg_panimate.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\bg_pmove.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\bg_slidemove.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_camera.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_consolecmds.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_credits.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_draw.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_drawtools.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_effects.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_ents.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_event.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_headers.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_info.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_lights.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_localents.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_main.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_marks.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_players.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_playerstate.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_predict.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_scoreboard.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_servercmds.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_snapshot.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_syscalls.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_text.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_view.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_weapons.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_ATSTMain.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_Blaster.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_Bowcaster.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_BryarPistol.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_DEMP2.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_Disruptor.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_Emplaced.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_Flechette.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_HeavyRepeater.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_RocketLauncher.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FxParsing.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FxPrimitives.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FxScheduler.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FxSystem.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FxTemplate.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FxUtil.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Atst.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Default.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Droid.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_GalakMech.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Grenadier.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Howler.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_ImperialProbe.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Interrogator.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Jedi.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Mark1.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Mark2.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_MineMonster.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Remote.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Seeker.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Sentry.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Sniper.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Stormtrooper.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Utils.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_active.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_breakable.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_camera.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_client.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_cmds.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_combat.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_functions.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_fx.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_headers.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_ICARUS.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_inventory.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_itemLoad.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_items.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_main.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_mem.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_misc.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_misc_model.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_missile.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_mover.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_nav.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_navigator.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_navnew.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_object.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_objectives.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_ref.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_roff.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_savegame.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_session.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_spawn.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_svcmds.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_target.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\G_Timer.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_trigger.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_turret.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_usable.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_utils.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_weapon.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_weaponLoad.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\gameinfo.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\genericparser2.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_behavior.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_combat.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_goal.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_misc.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_move.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_reactions.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_senses.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_sounds.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_spawn.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_stats.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_utils.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\Q3_Interface.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\Q3_Registers.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\q_math.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\q_shared.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\tri_coll_test.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_atst.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_blaster_rifle.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_bot_laser.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_bowcaster.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_bryar_pistol.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_demp2.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_det_pack.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_disruptor.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_emplaced_gun.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_flechette.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_melee.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_repeater.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_rocket_launcher.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_saber.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_stun_baton.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_thermal.obj
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_trip_mine.obj
-]
-Creating command line "Link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1270.tmp"
-<h3>Output Window</h3>
-Compiling...
-cg_ents.cpp
-Compiling...
-FxScheduler.cpp
-Linking...
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1271.tmp" with contents
-[
-/nologo /o"..\Debug/game.bsc" 
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_headers.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\BlockStream.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\Instance.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\Sequence.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\Sequencer.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\TaskManager.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\bg_misc.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\bg_pangles.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\bg_panimate.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\bg_pmove.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\bg_slidemove.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_camera.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_consolecmds.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_credits.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_draw.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_drawtools.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_effects.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_ents.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_event.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_headers.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_info.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_lights.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_localents.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_main.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_marks.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_players.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_playerstate.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_predict.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_scoreboard.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_servercmds.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_snapshot.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_syscalls.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_text.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_view.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\cg_weapons.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_ATSTMain.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_Blaster.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_Bowcaster.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_BryarPistol.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_DEMP2.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_Disruptor.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_Emplaced.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_Flechette.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_HeavyRepeater.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FX_RocketLauncher.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FxParsing.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FxPrimitives.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FxScheduler.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FxSystem.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FxTemplate.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\FxUtil.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Atst.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Default.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Droid.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_GalakMech.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Grenadier.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Howler.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_ImperialProbe.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Interrogator.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Jedi.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Mark1.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Mark2.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_MineMonster.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Remote.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Seeker.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Sentry.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Sniper.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Stormtrooper.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\AI_Utils.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_active.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_breakable.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_camera.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_client.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_cmds.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_combat.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_functions.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_fx.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_ICARUS.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_inventory.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_itemLoad.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_items.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_main.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_mem.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_misc.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_misc_model.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_missile.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_mover.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_nav.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_navigator.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_navnew.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_object.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_objectives.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_ref.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_roff.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_savegame.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_session.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_spawn.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_svcmds.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_target.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\G_Timer.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_trigger.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_turret.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_usable.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_utils.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_weapon.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\g_weaponLoad.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\gameinfo.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\genericparser2.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_behavior.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_combat.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_goal.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_misc.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_move.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_reactions.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_senses.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_sounds.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_spawn.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_stats.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\NPC_utils.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\Q3_Interface.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\Q3_Registers.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\q_math.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\q_shared.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\tri_coll_test.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_atst.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_blaster_rifle.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_bot_laser.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_bowcaster.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_bryar_pistol.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_demp2.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_det_pack.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_disruptor.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_emplaced_gun.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_flechette.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_melee.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_repeater.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_rocket_launcher.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_saber.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_stun_baton.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_thermal.sbr
-\DEV\MSVC_Projects\OpenJK\codeJK2\Debug\game\wp_trip_mine.sbr]
-Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1271.tmp"
-Creating browse info file...
-<h3>Output Window</h3>
-<h3>
 --------------------Configuration: starwars - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Build : warning : failed to (or don't know how to) build 'E:\DEV\MSVC_Projects\OpenJK\codeJK2\ff\ff_utils.cpp'
-
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1272.tmp" with contents
-[
-/nologo /G6 /MTd /W4 /Gm /Gi /GX /ZI /Od /I "ff/ifc" /D "_DEBUG" /D "_JK2EXE" /D "WIN32" /D "_WINDOWS" /Fr".\Debug\exe/" /Fp".\Debug\exe/starwars.pch" /Yu"..\server\exe_headers.h" /Fo".\Debug\exe/" /Fd".\Debug\exe/" /FD /c 
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\client\cl_cgame.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\client\cl_main.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\server\sv_game.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\server\sv_world.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\renderer\tr_cmds.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\renderer\tr_ghoul2.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\renderer\tr_init.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\renderer\tr_main.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\win32\win_glimp.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\ui\ui_shared.cpp"
-]
-Creating command line "Cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1272.tmp" 
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1273.tmp" with contents
-[
-/nologo /G6 /MTd /W4 /Gm /Gi /GX /ZI /Od /I "ff/ifc" /D "_DEBUG" /D "_JK2EXE" /D "WIN32" /D "_WINDOWS" /Fr".\Debug\exe/" /Fp".\Debug\exe/starwars.pch" /Yu"../server/exe_headers.h" /Fo".\Debug\exe/" /Fd".\Debug\exe/" /FD /c 
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\win32\win_input.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\win32\win_main.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\win32\win_shared.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\win32\win_snd.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\win32\win_syscon.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\win32\win_video.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\win32\win_wndproc.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\ghoul2\G2_API.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\ghoul2\G2_bolts.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\ghoul2\G2_bones.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\ghoul2\G2_misc.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\ghoul2\G2_surfaces.cpp"
-]
-Creating command line "Cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1273.tmp" 
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1274.tmp" with contents
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1396.tmp" with contents
 [
 /nologo /G6 /MTd /W4 /Gm /Gi /GX /ZI /Od /I "ff/ifc" /D "_DEBUG" /D "_JK2EXE" /D "WIN32" /D "_WINDOWS" /Fr".\Debug\exe/" /Fo".\Debug\exe/" /Fd".\Debug\exe/" /FD /c 
 "E:\DEV\MSVC_Projects\OpenJK\codeJK2\ff\cl_ff.cpp"
@@ -373,10 +22,10 @@ Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1274.tmp" with co
 "E:\DEV\MSVC_Projects\OpenJK\codeJK2\ff\ff_system.cpp"
 "E:\DEV\MSVC_Projects\OpenJK\codeJK2\ff\ff_utils.cpp"
 ]
-Creating command line "Cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1274.tmp" 
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1275.tmp" with contents
+Creating command line "Cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1396.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1397.tmp" with contents
 [
-ALut.lib OpenAL32.lib advapi32.lib winmm.lib kernel32.lib user32.lib gdi32.lib ole32.lib wsock32.lib ff/ifc/ifc22.lib /nologo /stack:0x800000 /subsystem:windows /incremental:yes /pdb:".\Debug/jk2sp.pdb" /map:".\Debug\exe/jk2sp.map" /debug /machine:I386 /out:".\Debug/jk2sp.exe" 
+ALut.lib OpenAL32.lib advapi32.lib winmm.lib kernel32.lib user32.lib gdi32.lib ole32.lib wsock32.lib /nologo /stack:0x800000 /subsystem:windows /incremental:yes /pdb:".\Debug/jk2sp.pdb" /map:".\Debug\exe/jk2sp.map" /debug /machine:I386 /out:".\Debug/jk2sp.exe" 
 .\Debug\exe\cl_cgame.obj
 .\Debug\exe\cl_cin.obj
 .\Debug\exe\cl_console.obj
@@ -531,6 +180,10 @@ ALut.lib OpenAL32.lib advapi32.lib winmm.lib kernel32.lib user32.lib gdi32.lib o
 .\Debug\exe\buffer.obj
 .\Debug\exe\cpp_interface.obj
 .\Debug\exe\sockets.obj
+.\win32\winquake.res
+.\ALut.lib
+.\OpenAL32.lib
+.\ff\IFC\IFC22.lib
 .\Debug\exe\cl_ff.obj
 .\Debug\exe\ff.obj
 .\Debug\exe\ff_ChannelSet.obj
@@ -543,76 +196,39 @@ ALut.lib OpenAL32.lib advapi32.lib winmm.lib kernel32.lib user32.lib gdi32.lib o
 .\Debug\exe\ff_snd.obj
 .\Debug\exe\ff_system.obj
 .\Debug\exe\ff_utils.obj
-.\win32\winquake.res
-.\ALut.lib
-.\OpenAL32.lib
-.\ff\IFC\IFC22.lib
 .\Debug\jk2gamex86.lib
 ]
-Creating command line "Link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1275.tmp"
+Creating command line "Link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1397.tmp"
 <h3>Output Window</h3>
 Compiling...
-sv_game.cpp
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\server\sv_game.cpp(457) : error C2440: '=' : cannot convert from 'int (__cdecl *)(class CGhoul2Info_v &,char ** ,int *)' to 'void (__cdecl *)(class CGhoul2Info_v &)'
-        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\server\sv_game.cpp(459) : error C2039: 'G2API_FreeSaveBuffer' : is not a member of 'game_import_t'
-        e:\dev\msvc_projects\openjk\codejk2\game\g_public.h(134) : see declaration of 'game_import_t'
-tr_cmds.cpp
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\renderer\tr_cmds.cpp(77) : error C2039: 'smpActive' : is not a member of 'glconfig_t'
-        e:\dev\msvc_projects\openjk\codejk2\renderer\tr_types.h(211) : see declaration of 'glconfig_t'
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\renderer\tr_cmds.cpp(82) : error C2039: 'smpActive' : is not a member of 'glconfig_t'
-        e:\dev\msvc_projects\openjk\codejk2\renderer\tr_types.h(211) : see declaration of 'glconfig_t'
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\renderer\tr_cmds.cpp(96) : error C2039: 'smpActive' : is not a member of 'glconfig_t'
-        e:\dev\msvc_projects\openjk\codejk2\renderer\tr_types.h(211) : see declaration of 'glconfig_t'
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\renderer\tr_cmds.cpp(98) : error C2039: 'smpActive' : is not a member of 'glconfig_t'
-        e:\dev\msvc_projects\openjk\codejk2\renderer\tr_types.h(211) : see declaration of 'glconfig_t'
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\renderer\tr_cmds.cpp(121) : error C2039: 'smpActive' : is not a member of 'glconfig_t'
-        e:\dev\msvc_projects\openjk\codejk2\renderer\tr_types.h(211) : see declaration of 'glconfig_t'
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\renderer\tr_cmds.cpp(148) : error C2039: 'smpActive' : is not a member of 'glconfig_t'
-        e:\dev\msvc_projects\openjk\codejk2\renderer\tr_types.h(211) : see declaration of 'glconfig_t'
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\renderer\tr_cmds.cpp(173) : error C2039: 'smpActive' : is not a member of 'glconfig_t'
-        e:\dev\msvc_projects\openjk\codejk2\renderer\tr_types.h(211) : see declaration of 'glconfig_t'
-tr_init.cpp
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\renderer\tr_init.cpp(818) : error C2039: 'smpActive' : is not a member of 'glconfig_t'
-        e:\dev\msvc_projects\openjk\codejk2\renderer\tr_types.h(211) : see declaration of 'glconfig_t'
-tr_main.cpp
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\renderer\tr_main.cpp(870) : error C2039: 'smpActive' : is not a member of 'glconfig_t'
-        e:\dev\msvc_projects\openjk\codejk2\renderer\tr_types.h(211) : see declaration of 'glconfig_t'
-win_glimp.cpp
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\win32\win_glimp.cpp(710) : error C2039: 'windowAspect' : is not a member of 'glconfig_t'
-        e:\dev\msvc_projects\openjk\codejk2\renderer\tr_types.h(211) : see declaration of 'glconfig_t'
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\win32\win_glimp.cpp(740) : error C2065: 'SP_GetStringTextString' : undeclared identifier
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\win32\win_glimp.cpp(740) : error C2446: ':' : no conversion from 'int' to 'char *'
-        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\win32\win_glimp.cpp(740) : error C2664: 'Q_strncpyz' : cannot convert parameter 2 from '' to 'const char *'
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\win32\win_glimp.cpp(749) : error C2446: ':' : no conversion from 'int' to 'char *'
-        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
-ui_shared.cpp
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\ui\ui_shared.cpp(223) : error C2065: 'SP_GetStringID' : undeclared identifier
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\ui\ui_shared.cpp(4856) : error C2065: 'SP_GetStringText' : undeclared identifier
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\ui\ui_shared.cpp(4856) : error C2440: '=' : cannot convert from 'int' to 'const char *'
-        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\ui\ui_shared.cpp(4926) : error C2440: '=' : cannot convert from 'int' to 'const char *'
-        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\ui\ui_shared.cpp(4945) : error C2440: '=' : cannot convert from 'int' to 'const char *'
-        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\ui\ui_shared.cpp(5620) : error C2440: '=' : cannot convert from 'int' to 'const char *'
-        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\ui\ui_shared.cpp(5978) : error C2440: '=' : cannot convert from 'int' to 'const char *'
-        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
-E:\DEV\MSVC_Projects\OpenJK\codeJK2\ui\ui_shared.cpp(6335) : error C2440: '=' : cannot convert from 'int' to 'const char *'
-        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+cl_ff.cpp
+ff.cpp
+ff_ChannelSet.cpp
+ff_ConfigParser.cpp
+ff_ffset.cpp
+ff_HandleTable.cpp
+ff_MultiCompound.cpp
+ff_MultiEffect.cpp
+ff_MultiSet.cpp
+ff_snd.cpp
+ff_system.cpp
+ff_utils.cpp
 Generating Code...
-Compiling...
-cl_cgame.cpp
-Generating Code...
-Compiling...
-cl_main.cpp
-sv_world.cpp
-tr_ghoul2.cpp
-Generating Code...
-Error executing Cl.exe.
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1276.tmp" with contents
+Linking...
+cl_cgame.obj : error LNK2001: unresolved external symbol "int __cdecl cgi_SP_Register(char const *,int)" (?cgi_SP_Register@@YAHPBDH@Z)
+cl_cgame.obj : error LNK2001: unresolved external symbol "void __cdecl FF_StopAll(void)" (?FF_StopAll@@YAXXZ)
+cl_cgame.obj : error LNK2001: unresolved external symbol "void __cdecl FF_Stop(enum ffFX_e)" (?FF_Stop@@YAXW4ffFX_e@@@Z)
+cl_cgame.obj : error LNK2001: unresolved external symbol "void __cdecl FF_EnsurePlaying(enum ffFX_e)" (?FF_EnsurePlaying@@YAXW4ffFX_e@@@Z)
+cl_cgame.obj : error LNK2001: unresolved external symbol "void __cdecl FF_Play(enum ffFX_e)" (?FF_Play@@YAXW4ffFX_e@@@Z)
+win_input.obj : error LNK2001: unresolved external symbol "void __cdecl FF_Shutdown(void)" (?FF_Shutdown@@YAXXZ)
+win_input.obj : error LNK2001: unresolved external symbol "void __cdecl FF_Init(int)" (?FF_Init@@YAXH@Z)
+G2_API.obj : error LNK2001: unresolved external symbol "void __cdecl G2API_SetSurfaceOnOffFromSkin(class CGhoul2Info *,int)" (?G2API_SetSurfaceOnOffFromSkin@@YAXPAVCGhoul2Info@@H@Z)
+tr_font.obj : error LNK2001: unresolved external symbol "int __cdecl Language_IsJapanese(void)" (?Language_IsJapanese@@YAHXZ)
+tr_font.obj : error LNK2001: unresolved external symbol "int __cdecl Language_IsTaiwanese(void)" (?Language_IsTaiwanese@@YAHXZ)
+tr_font.obj : error LNK2001: unresolved external symbol "int __cdecl Language_IsKorean(void)" (?Language_IsKorean@@YAHXZ)
+.\Debug/jk2sp.exe : fatal error LNK1120: 11 unresolved externals
+Error executing Link.exe.
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1399.tmp" with contents
 [
 /nologo /o"Debug/starwars.bsc" 
 .\Debug\exe\exe_headers.sbr
@@ -781,16 +397,14 @@ Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1276.tmp" with co
 .\Debug\exe\ff_snd.sbr
 .\Debug\exe\ff_system.sbr
 .\Debug\exe\ff_utils.sbr]
-Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1276.tmp"
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1399.tmp"
 Creating browse info file...
-BSCMAKE: error BK1506 : cannot open file '.\Debug\exe\win_input.sbr': No such file or directory
-Error executing bscmake.exe.
 <h3>Output Window</h3>
 
 
 
 <h3>Results</h3>
-jk2sp.exe - 25 error(s), 1 warning(s)
+jk2sp.exe - 12 error(s), 0 warning(s)
 </pre>
 </body>
 </html>

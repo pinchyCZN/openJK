@@ -21,6 +21,7 @@
 #include <assert.h>
 #include "../renderer/tr_local.h"
 #include "../qcommon/qcommon.h"
+#include "../qcommon/strip.h"
 #include "glw_win.h"
 #include "win_local.h"
 #include "resource.h"	//JFM: to get icon

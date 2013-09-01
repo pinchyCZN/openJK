@@ -68,6 +68,7 @@ enum
 
 
 // Registration
+#define JK2
 qboolean				JK2SP_Register(const char *Package, unsigned char Registration);
 void					JK2SP_Unload(unsigned char Registration);
 
@@ -86,6 +87,9 @@ inline void				JK2SP_Shutdown(void)
 {
 	JK2SP_Unload(SP_REGISTER_CLIENT | SP_REGISTER_SERVER | SP_REGISTER_MENU | SP_REGISTER_REQUIRED );
 }
+#ifdef JK2
+#undef JK2
+#endif
 
 extern cvar_t	*sp_language;
 // query function from font code

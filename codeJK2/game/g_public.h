@@ -321,8 +321,9 @@ Ghoul2 Insert Start
 								   const int flags, qhandle_t *modelList, int blendTime, int currentTime);
 	qboolean	(*G2API_SetAnimIndex)(CGhoul2Info *ghlInfo, const int index);
 	int			(*G2API_GetAnimIndex)(CGhoul2Info *ghlInfo);
-	void		(*G2API_SaveGhoul2Models)(CGhoul2Info_v &ghoul2);
+	int 		(*G2API_SaveGhoul2Models)(CGhoul2Info_v &ghoul2, char **buffer, int *size);
 	void		(*G2API_LoadGhoul2Models)(CGhoul2Info_v &ghoul2, char *buffer);
+	void		(*G2API_FreeSaveBuffer)(char *buffer);
 	void		(*G2API_LoadSaveCodeDestructGhoul2Info)(CGhoul2Info_v &ghoul2);
 	char		*(*G2API_GetAnimFileNameIndex)(qhandle_t modelIndex);
 	char		*(*G2API_GetAnimFileInternalNameIndex)(qhandle_t modelIndex);
