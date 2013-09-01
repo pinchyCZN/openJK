@@ -1435,6 +1435,36 @@ void G2_ProcessSurfaceBolt2(CBoneCache &boneCache, const mdxmSurface_t *surface,
 
 }
 
+void G2API_SetSurfaceOnOffFromSkin (CGhoul2Info *ghlInfo, qhandle_t renderSkin)
+{
+	int j;
+	const skin_t	*skin = R_GetSkinByHandle( renderSkin );	
+	//FIXME:  using skin handles means we have to increase the numsurfs in a skin, but reading directly would cause file hits, we need another way to cache or just deal with the larger skin_t
+
+	if (skin)
+	{
+		ghlInfo->mSlist.clear();	//remove any overrides we had before.
+		ghlInfo->mMeshFrameNum = 0;
+		for ( j = 0 ; j < skin->numSurfaces ; j++ )
+		{
+			int	flags;
+			int surfaceNum = G2_IsSurfaceLegal(ghlInfo->currentModel, skin->surfaces[j]->name, &flags);
+			// the names have both been lowercased
+			if ( !(flags&G2SURFACEFLAG_OFF) && !strcmp( skin->surfaces[j]->shader->name , "*off") ) 
+			{
+				G2_SetSurfaceOnOff(ghlInfo, ghlInfo->mSlist, skin->surfaces[j]->name, G2SURFACEFLAG_OFF);
+			}
+			else 
+			{
+				//if ( strcmp( &skin->surfaces[j]->name[strlen(skin->surfaces[j]->name)-4],"_off") )
+				if ( (surfaceNum != -1) && (!(flags&G2SURFACEFLAG_OFF)) )	//only turn on if it's not an "_off" surface
+				{
+					//G2_SetSurfaceOnOff(ghlInfo, skin->surfaces[j]->name, 0);
+				}
+			}
+		}
+	}
+}
 
 void G2_GetBoltMatrixLow(CGhoul2Info &ghoul2,int boltNum,const vec3_t scale,mdxaBone_t &retMatrix)
 {

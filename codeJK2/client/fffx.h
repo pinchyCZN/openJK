@@ -76,11 +76,17 @@ typedef enum
 //	and then firing a machine gun in bursts as well are no problem, and easily felt, hence the ability to stop playing
 //	individual FF FX.
 //
+#ifdef _IMMERSION
 #define FFFX_START(f)	FF_Play(f)
 #define FFFX_ENSURE(f)	FF_EnsurePlaying(f)
 #define FFFX_STOP(f)	FF_Stop(f)			// some effects (eg. gatling, chainsaw), need this, or they play too long after trigger-off.
 #define FFFX_STOPALL	FF_StopAll()
-
+#else
+#define FFFX_START(f)	
+#define FFFX_ENSURE(f)	
+#define FFFX_STOP(f)	
+#define FFFX_STOPALL
+#endif
 
 //
 // These 2 are called at app start/stop, but you can call FF_Init to change FF devices anytime (takes a couple of seconds)

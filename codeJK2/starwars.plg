@@ -6,24 +6,13 @@
 --------------------Configuration: starwars - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1396.tmp" with contents
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14C9.tmp" with contents
 [
-/nologo /G6 /MTd /W4 /Gm /Gi /GX /ZI /Od /I "ff/ifc" /D "_DEBUG" /D "_JK2EXE" /D "WIN32" /D "_WINDOWS" /Fr".\Debug\exe/" /Fo".\Debug\exe/" /Fd".\Debug\exe/" /FD /c 
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\ff\cl_ff.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\ff\ff.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\ff\ff_ChannelSet.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\ff\ff_ConfigParser.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\ff\ff_ffset.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\ff\ff_HandleTable.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\ff\ff_MultiCompound.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\ff\ff_MultiEffect.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\ff\ff_MultiSet.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\ff\ff_snd.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\ff\ff_system.cpp"
-"E:\DEV\MSVC_Projects\OpenJK\codeJK2\ff\ff_utils.cpp"
+/nologo /G6 /MTd /W4 /Gm /Gi /GX /ZI /Od /I "ff/ifc" /D "_DEBUG" /D "_JK2EXE" /D "WIN32" /D "_WINDOWS" /Fr".\Debug\exe/" /Fp".\Debug\exe/starwars.pch" /Yu"../server/exe_headers.h" /Fo".\Debug\exe/" /Fd".\Debug\exe/" /FD /c 
+"E:\DEV\MSVC_Projects\OpenJK\codeJK2\win32\win_input.cpp"
 ]
-Creating command line "Cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1396.tmp" 
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1397.tmp" with contents
+Creating command line "Cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14C9.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14CA.tmp" with contents
 [
 ALut.lib OpenAL32.lib advapi32.lib winmm.lib kernel32.lib user32.lib gdi32.lib ole32.lib wsock32.lib /nologo /stack:0x800000 /subsystem:windows /incremental:yes /pdb:".\Debug/jk2sp.pdb" /map:".\Debug\exe/jk2sp.map" /debug /machine:I386 /out:".\Debug/jk2sp.exe" 
 .\Debug\exe\cl_cgame.obj
@@ -198,37 +187,12 @@ ALut.lib OpenAL32.lib advapi32.lib winmm.lib kernel32.lib user32.lib gdi32.lib o
 .\Debug\exe\ff_utils.obj
 .\Debug\jk2gamex86.lib
 ]
-Creating command line "Link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1397.tmp"
+Creating command line "Link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14CA.tmp"
 <h3>Output Window</h3>
 Compiling...
-cl_ff.cpp
-ff.cpp
-ff_ChannelSet.cpp
-ff_ConfigParser.cpp
-ff_ffset.cpp
-ff_HandleTable.cpp
-ff_MultiCompound.cpp
-ff_MultiEffect.cpp
-ff_MultiSet.cpp
-ff_snd.cpp
-ff_system.cpp
-ff_utils.cpp
-Generating Code...
+win_input.cpp
 Linking...
-cl_cgame.obj : error LNK2001: unresolved external symbol "int __cdecl cgi_SP_Register(char const *,int)" (?cgi_SP_Register@@YAHPBDH@Z)
-cl_cgame.obj : error LNK2001: unresolved external symbol "void __cdecl FF_StopAll(void)" (?FF_StopAll@@YAXXZ)
-cl_cgame.obj : error LNK2001: unresolved external symbol "void __cdecl FF_Stop(enum ffFX_e)" (?FF_Stop@@YAXW4ffFX_e@@@Z)
-cl_cgame.obj : error LNK2001: unresolved external symbol "void __cdecl FF_EnsurePlaying(enum ffFX_e)" (?FF_EnsurePlaying@@YAXW4ffFX_e@@@Z)
-cl_cgame.obj : error LNK2001: unresolved external symbol "void __cdecl FF_Play(enum ffFX_e)" (?FF_Play@@YAXW4ffFX_e@@@Z)
-win_input.obj : error LNK2001: unresolved external symbol "void __cdecl FF_Shutdown(void)" (?FF_Shutdown@@YAXXZ)
-win_input.obj : error LNK2001: unresolved external symbol "void __cdecl FF_Init(int)" (?FF_Init@@YAXH@Z)
-G2_API.obj : error LNK2001: unresolved external symbol "void __cdecl G2API_SetSurfaceOnOffFromSkin(class CGhoul2Info *,int)" (?G2API_SetSurfaceOnOffFromSkin@@YAXPAVCGhoul2Info@@H@Z)
-tr_font.obj : error LNK2001: unresolved external symbol "int __cdecl Language_IsJapanese(void)" (?Language_IsJapanese@@YAHXZ)
-tr_font.obj : error LNK2001: unresolved external symbol "int __cdecl Language_IsTaiwanese(void)" (?Language_IsTaiwanese@@YAHXZ)
-tr_font.obj : error LNK2001: unresolved external symbol "int __cdecl Language_IsKorean(void)" (?Language_IsKorean@@YAHXZ)
-.\Debug/jk2sp.exe : fatal error LNK1120: 11 unresolved externals
-Error executing Link.exe.
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1399.tmp" with contents
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14CC.tmp" with contents
 [
 /nologo /o"Debug/starwars.bsc" 
 .\Debug\exe\exe_headers.sbr
@@ -397,14 +361,14 @@ Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1399.tmp" with co
 .\Debug\exe\ff_snd.sbr
 .\Debug\exe\ff_system.sbr
 .\Debug\exe\ff_utils.sbr]
-Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1399.tmp"
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14CC.tmp"
 Creating browse info file...
 <h3>Output Window</h3>
 
 
 
 <h3>Results</h3>
-jk2sp.exe - 12 error(s), 0 warning(s)
+jk2sp.exe - 0 error(s), 0 warning(s)
 </pre>
 </body>
 </html>

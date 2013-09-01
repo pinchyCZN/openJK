@@ -792,7 +792,9 @@ Ghoul2 Insert End
 		return result;
 
 	case CG_SP_REGISTER:
-		return cgi_SP_Register( (const char *) VMA(1), args[2]?(SP_REGISTER_MENU|SP_REGISTER_REQUIRED):SP_REGISTER_CLIENT );
+		assert(FALSE); //fixme
+		return TRUE;
+		//return cgi_SP_Register( (const char *) VMA(1), args[2]?(SP_REGISTER_MENU|SP_REGISTER_REQUIRED):SP_REGISTER_CLIENT );
 		
 	case CG_SP_GETSTRINGTEXTSTRING:
 	case CG_SP_GETSTRINGTEXT:
