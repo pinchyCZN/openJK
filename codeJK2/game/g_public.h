@@ -74,7 +74,7 @@ typedef enum
 
 
 #ifndef GAME_INCLUDE
-
+#define GAME_INCLUDE
 // the server needs to know enough information to handle collision and snapshot generation
 
 struct gentity_s {
@@ -240,7 +240,7 @@ typedef struct {
 
 	// dynamic memory allocator for things that need to be freed
 	void		*(*Malloc)( int iSize, memtag_t eTag, qboolean bZeroIt);	// see qcommon/tags.h for choices
-	int			(*Free)( void *buf );
+	void		(*Free)( void *buf );
 	qboolean	(*bIsFromZone)( void *buf, memtag_t eTag);	// see qcommon/tags.h for choices
 
 /*

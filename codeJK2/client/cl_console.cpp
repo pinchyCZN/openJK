@@ -7,6 +7,7 @@
 
 #include "client.h"
 #include "../qcommon/stv_version.h"
+#include "../qcommon/strip.h"
 
 int g_console_field_width = 78;
 

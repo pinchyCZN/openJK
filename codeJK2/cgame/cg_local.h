@@ -24,7 +24,11 @@ This file is part of Jedi Knight 2.
 // define GAME_INCLUDE so that g_public.h does not define the
 // short, server-visible gclient_t and gentity_t structures,
 // because we define the full size ones in this file
-#define	GAME_INCLUDE
+#ifdef GAME_INCLUDE
+	#undef GAME_INCLUDE
+#else
+	#define	GAME_INCLUDE
+#endif
 #include "../game/g_shared.h"
 #include "cg_camera.h"
 

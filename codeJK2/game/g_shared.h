@@ -526,6 +526,8 @@ typedef struct
 	char	parm[MAX_PARMS][MAX_PARM_STRING_LENGTH];
 } parms_t;
 
+typedef struct centity_s centity_t;
+
 #ifdef GAME_INCLUDE
 //these hold the place for the enums in functions.h so i don't have to recompile everytime it changes
 #define thinkFunc_t int
@@ -539,7 +541,7 @@ typedef struct
 
 #define MAX_FAILED_NODES 8
 
-typedef struct centity_s centity_t;
+
 struct gentity_s {
 	entityState_t	s;				// communicated by server to clients
 	struct gclient_s	*client;	// NULL if not a player (unless it's NPC ( if (this->NPC != NULL)  )  <sigh>... -slc)

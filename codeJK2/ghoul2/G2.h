@@ -112,7 +112,7 @@ qhandle_t	G2API_PrecacheGhoul2Model(const char *fileName);
 int			G2API_InitGhoul2Model(CGhoul2Info_v &ghoul2, const char *fileName, int modelIndex, qhandle_t customSkin = NULL,
 								  qhandle_t customShader = NULL, int modelFlags = 0, int lodBias = 0);
 qboolean	G2API_SetLodBias(CGhoul2Info *ghlInfo, int lodBias);
-qboolean	G2API_SetSkin(CGhoul2Info *ghlInfo, qhandle_t customSkin);
+qboolean	G2API_SetSkin(CGhoul2Info *ghlInfo, qhandle_t customSkin, qhandle_t renderSkin);
 qboolean	G2API_SetShader(CGhoul2Info *ghlInfo, qhandle_t customShader);
 qboolean	G2API_RemoveGhoul2Model(CGhoul2Info_v &ghlInfo, const int modelIndex);
 qboolean	G2API_SetSurfaceOnOff(CGhoul2Info *ghlInfo, const char *surfaceName, const int flags);

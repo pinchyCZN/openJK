@@ -595,12 +595,17 @@ qboolean G2API_SetLodBias(CGhoul2Info *ghlInfo, int lodBias)
 	return qfalse;
 }
 
-qboolean G2API_SetSkin(CGhoul2Info *ghlInfo, qhandle_t customSkin)
+qboolean G2API_SetSkin(CGhoul2Info *ghlInfo, qhandle_t customSkin, qhandle_t renderSkin)
 {
 	G2ERROR(ghlInfo,"NULL ghlInfo");
 	if (ghlInfo)
 	{
 		ghlInfo->mCustomSkin = customSkin;
+		if (renderSkin)
+		{//this is going to set the surfs on/off matching the skin file
+extern void G2API_SetSurfaceOnOffFromSkin (CGhoul2Info *ghlInfo, qhandle_t renderSkin);	//tr_ghoul2.cpp
+			G2API_SetSurfaceOnOffFromSkin( ghlInfo, renderSkin );
+		}
 		return qtrue;
 	}
 	return qfalse;

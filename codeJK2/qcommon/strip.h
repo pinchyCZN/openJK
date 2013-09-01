@@ -16,6 +16,15 @@
 #pragma warning(disable:4503)	// decorated name length xceeded, name was truncated
 
 
+qboolean SP_Register(const char *inPackage, unsigned char Registration);
+void SP_Unload(unsigned char Registration);
+int SP_GetStringID(const char *inReference);
+const char *SP_GetStringText(unsigned short ID);
+const char *SP_GetStringTextString(const char *Reference);
+void SP_CheckForLanguageUpdates(void);
+void SP_Init(void);
+
+
 class cStrings
 {
 private:

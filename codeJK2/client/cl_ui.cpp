@@ -2,6 +2,7 @@
 //
 #include "../server/exe_headers.h"
 
+#include "../qcommon/strip.h"
 
 #include "client.h"
 #include "client_ui.h"

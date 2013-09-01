@@ -9,7 +9,6 @@
 
 
 //=============================================================================
-
 #define	PERS_SCORE				0		// !!! MUST NOT CHANGE, SERVER AND
 										// GAME BOTH REFERENCE !!!
 
@@ -277,7 +276,7 @@ qboolean SV_TryLoadTransition( const char *mapname );
 qboolean SG_WriteSavegame(const char *psPathlessBaseName, qboolean qbAutosave);
 qboolean SG_ReadSavegame(const char *psPathlessBaseName);
 void SG_WipeSavegame(const char *psPathlessBaseName);
-qboolean SG_Append(unsigned long chid, void *data, int length);
+qboolean SG_Append(unsigned long chid, const void *data, int length);
 int SG_Read			(unsigned long chid, void *pvAddress, int iLength, void **ppvAddressPtr = NULL);
 int SG_ReadOptional	(unsigned long chid, void *pvAddress, int iLength, void **ppvAddressPtr = NULL);
 void SG_Shutdown();

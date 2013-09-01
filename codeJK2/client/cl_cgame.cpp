@@ -5,7 +5,7 @@
 #include "../server/exe_headers.h"
 #include "../ui/ui_shared.h"
 	   		
-
+#include "../qcommon/strip.h"
 #include "client.h"
 #include "../cgame/cg_local.h"
 
@@ -800,7 +800,6 @@ Ghoul2 Insert End
 
 		assert(VMA(1));	
 //		assert(VMA(2));	// can now pass in NULL to just query the size
-
 		if (args[0] == CG_SP_GETSTRINGTEXT)
 		{
 			text = SP_GetStringText( args[1] );

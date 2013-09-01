@@ -33,7 +33,12 @@ This file is part of Jedi Knight 2.
 //#endif
 
 #ifdef _NO_PCH // (mrw) not sure how to make cmake use PCH, so they can be deactivated
-#define GAME_INCLUDE
+#ifdef GAME_INCLUDE
+	#undef GAME_INCLUDE
+#else
+	#define	GAME_INCLUDE
+#endif
+
 #include "../game/b_local.h"
 #include "../cgame/cg_local.h"
 #include "../game/g_navigator.h"

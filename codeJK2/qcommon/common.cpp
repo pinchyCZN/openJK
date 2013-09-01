@@ -3,6 +3,8 @@
 #include "../game/q_shared.h"
 #include "qcommon.h"
 #include "../qcommon/sstring.h"	// to get Gil's string class, because MS's doesn't compile properly in here
+#include "../qcommon/strip.h"
+
 #include "stv_version.h"
 
 #ifdef _WIN32
@@ -2262,6 +2264,7 @@ void Com_Shutdown (void) {
 		FS_FCloseFile( com_journalFile );
 		com_journalFile = 0;
 	}
-	SP_Shutdown();//close the string packages
+	SP_Unload(SP_REGISTER_CLIENT | SP_REGISTER_SERVER | SP_REGISTER_MENU | SP_REGISTER_REQUIRED);
+	//SP_Shutdown();//close the string packages
 }
 

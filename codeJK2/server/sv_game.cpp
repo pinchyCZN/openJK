@@ -5,6 +5,7 @@
 #include "../server/exe_headers.h"
 
 
+#include "../qcommon/strip.h"
 
 
 #include "server.h"

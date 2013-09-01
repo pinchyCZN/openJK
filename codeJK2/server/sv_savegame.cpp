@@ -15,6 +15,7 @@ extern byte *Compress_JPG(int *pOutputSize, int quality, int image_width, int im
 //#define USE_LAST_SAVE_FROM_THIS_MAP	// enable this if you want to use the last explicity-loaded savegame from this map
 				 						//	when respawning after dying, else it'll just load "auto" regardless 
 										//	(EF1 behaviour). I should maybe time/date check them though?
+#include "../qcommon/strip.h"
 
 #include "server.h"
 #include "../game/statindex.h"
@@ -1202,7 +1203,7 @@ int CompressMem(byte *pbData, int iLength, byte *&pbOut)
 }
 
 
-qboolean SG_Append(unsigned long chid, void *pvData, int iLength)
+qboolean SG_Append(unsigned long chid, const void *pvData, int iLength)
 {
 	unsigned int	uiCksum;
 	unsigned int	uiMagic = SG_MAGIC;

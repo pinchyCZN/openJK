@@ -3,7 +3,7 @@
 #include "../server/exe_headers.h"
 
 
-
+#include "../qcommon/strip.h"
 #include "server.h"
 #include "../game/weapons.h"
 #include "../game/g_items.h"

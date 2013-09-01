@@ -15,6 +15,7 @@
 #include "fffx.h"
 #endif // _IMMERSION
 #include "../ghoul2/g2.h"
+#include "../qcommon/strip.h"
 
 #define	RETRANSMIT_TIMEOUT	3000	// time between connection packet retransmits
 

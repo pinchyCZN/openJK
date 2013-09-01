@@ -185,8 +185,10 @@ void PM_SetSaberMove(short newMove);
 //
 
 typedef enum {
-	PERS_SCORE,						// !!! MUST NOT CHANGE, SERVER AND GAME BOTH REFERENCE !!!
-	PERS_HITS,						// total points damage inflicted so damage beeps can sound on change
+#ifndef PERS_SCORE
+	PERS_SCORE=0,						// !!! MUST NOT CHANGE, SERVER AND GAME BOTH REFERENCE !!!
+#endif
+	PERS_HITS=1,						// total points damage inflicted so damage beeps can sound on change
 	PERS_TEAM,				
 	PERS_SPAWN_COUNT,				// incremented every respawn
 //	PERS_REWARD_COUNT,				// incremented for each reward sound
