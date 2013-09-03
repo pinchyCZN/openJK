@@ -1124,7 +1124,7 @@ void CL_Init( void ) {
 	Com_Printf( "----- Client Initialization -----\n" );
 
 	SP_Register("con_text", SP_REGISTER_REQUIRED);	//reference is CON_TEXT
-	SP_Register("keynames", SP_REGISTER_REQUIRED);	// reference is KEYNAMES
+	//SP_Register("keynames", SP_REGISTER_REQUIRED);	// reference is KEYNAMES
 	
 	Con_Init ();
 
